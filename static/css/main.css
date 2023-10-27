@@ -79,12 +79,22 @@ section h2{
 }
 
 .profile-pic img {
-    width: 120px;
-    height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 40px;
+
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
     margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .profile-pic img {
+        width: 120px;
+        height: 120px;
+        margin-right: 40px;
+        margin-top: 20px;
+    }
 }
 
 /* Linkセクション */
