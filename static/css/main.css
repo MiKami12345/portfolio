@@ -51,6 +51,30 @@ section h2{
     text-align: left;
 }
 
+
+.scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #555;
+    color: #fff;
+    border-color: #fff;
+    border-style: inset;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.scroll-to-top:hover {
+    background-color: #777;
+}
+
 /* Aboutセクション */
 .profile {
     display: flex;
