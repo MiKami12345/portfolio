@@ -28,14 +28,16 @@ document.addEventListener('DOMContentLoaded', function() {
         const projectContent = project.querySelector('.project_content');
     
         moreButton.addEventListener('click', () => {
-            if (projectContent.style.display === 'none') {
+            if (projectContent.style.maxHeight === '0px') {
                 projectContent.style.display = 'block';
                 moreButton.classList.add('is_open');
+                moreButton.classList.remove('is_close');
+                projectContent.style.maxHeight = projectContent.scrollHeight + 'px';
             } else {
-                projectContent.style.display = 'none';
+                projectContent.style.maxHeight = '0px';
+                moreButton.classList.add('is_close');
                 moreButton.classList.remove('is_open');
             }
         });
     });
-
 });

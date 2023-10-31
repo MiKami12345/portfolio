@@ -167,11 +167,22 @@ section h2{
 
 .is_open{
     transform: rotate(45deg);
+    transition: transform 0.3s ease; 
+}
+
+.is_close{
+    transform: rotate(0deg);
+    transition: transform 0.3s ease; 
 }
 
 .project_content{
     padding-left: 15px;
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
 }
+
 .p_h_field{
     display: flex;
     justify-content: space-between;
