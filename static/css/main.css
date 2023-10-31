@@ -30,10 +30,6 @@ a {
     font-weight: bold;
 }
 
-section {
-    padding: 1.9rem;
-}
-
 section h2{
     margin-top: 0;
 }
@@ -41,10 +37,9 @@ section h2{
 .section {
     background-color: #fff;
     border: 1px solid #ccc;
-    margin: 3%;
-    padding-bottom: 20px;
+    margin: 0 10% 20px 10%;
+    padding: 40px 5% 5% 5%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
 }
 
 .left-align {
