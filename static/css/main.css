@@ -225,6 +225,17 @@ section h2{
     writing-mode: horizontal-tb;
 }
 
+@media (max-width: 767px) {
+    .p_h_field{
+        flex-direction: column;
+    }
+    .p_c_field{
+        flex-direction: column;
+    }
+    .p_card{
+        margin-top: 1em;
+    }
+}
 /* Linkセクション */
 table {
     border-collapse: collapse;
