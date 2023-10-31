@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const projectContent = project.querySelector('.project_content');
     
         moreButton.addEventListener('click', () => {
-            if (projectContent.style.maxHeight === '0px') {
+            if (projectContent.style.maxHeight === '0px' && !moreButton.classList.contains('NG')) {
                 projectContent.style.display = 'block';
                 moreButton.classList.add('is_open');
                 moreButton.classList.remove('is_close');

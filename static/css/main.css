@@ -170,6 +170,10 @@ section h2{
     transition: transform 0.3s ease; 
 }
 
+.NG{
+    display: none;
+}
+
 .is_close{
     transform: rotate(0deg);
     transition: transform 0.3s ease; 
