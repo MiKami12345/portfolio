@@ -206,6 +206,10 @@ section h2{
 	width: 100px;
 }
 
+.project_content{
+    display: none;
+}
+
 #project_1{
     border-block-start: solid #ddd;
     writing-mode: horizontal-tb;
