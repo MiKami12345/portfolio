@@ -161,7 +161,7 @@ section h2{
 
 .icon_more{
     float: right;
-    width: 30px;
+    width: auto;
     height: 30px;
 }
 
