@@ -31,7 +31,7 @@ a {
 }
 
 section {
-    padding: 2rem;
+    padding: 1.9rem;
 }
 
 section h2{
@@ -136,6 +136,47 @@ section h2{
     }
 }
 
+/* projectセクション */
+#projects_list{
+    list-style-type: none;
+    position: relative;
+    list-style-type: none;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    
+    vertical-align: middle;
+    color: #505050;
+}
+
+.project_item{
+    border-block-end: solid #ddd;
+    writing-mode: horizontal-tb;
+    padding: 0px 20px 5px 15px;
+}
+
+.project_title{
+    
+}
+
+.icon_more{
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+.is_open{
+    transform: rotate(45deg);
+}
+
+.project_content{
+    padding-left: 15px;
+}
+
+#project_1{
+    border-block-start: solid #ddd;
+    writing-mode: horizontal-tb;
+}
 
 /* Linkセクション */
 table {
